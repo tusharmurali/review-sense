@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Sentiment Analysis</h1>
+    </header>
+
+    <div class="card elevation">
+      <!-- Input for review text -->
+      <textarea
+        class="review-textarea"
+        id="review-text"
+        placeholder="Enter a product review..."
+        rows="6"
+        cols="40"
+      ></textarea>
+
+      <div class="sentiment-result">
+        <i class="fa-regular fa-frown" id="sad-icon"></i>
+        <div id="sentiment-container" class="sentiment-container">
+            <div id="result-scale" class="result-scale"></div>
+        </div>
+        <i class="fa-regular fa-face-smile" id="happy-icon"></i>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://github.com/tusharmurali/sentiment-analysis" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

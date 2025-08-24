@@ -1,4 +1,4 @@
-# Sentiment Analysis
+# ReviewSense
 
 This repository contains a sentiment analysis model built with PyTorch, trained on a dataset of Amazon product reviews. The model predicts sentiment on a scale from -1 (completely negative) to 1 (completely positive). The dataset used is the [Preprocessed Dataset for Sentiment Analysis](https://www.kaggle.com/datasets/pradeeshprabhakar/preprocessed-dataset-sentiment-analysis) from Kaggle.
 
